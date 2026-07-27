@@ -1,20 +1,7 @@
-function App() {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        flexDirection: "column",
-        gap: "20px",
-      }}
-    >
-      <h1>Recall AI</h1>
+import Home from "./pages/Home";
 
-      <p>Your Digital Memory OS</p>
-    </div>
-  );
+function App() {
+  return <Home />;
 }
 
 export default App;
